@@ -1,0 +1,35 @@
+{
+    "parent": "ebf:smelting/root",
+    
+    "display": {
+        "icon": {
+            "item": "minecraft:wet_sponge"
+        },
+        "title": {
+            "translate": "Straight from Bikini Bottom",
+            "color": "#ffe600"
+        },
+        "description": {
+            "translate": "Maybe you'll find Patrick too..",
+            "color": "#fb00ff"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+        
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:sponge"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
