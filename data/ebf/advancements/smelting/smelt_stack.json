@@ -1,0 +1,37 @@
+{
+    "parent": "ebf:smelting/root",
+
+    "display": {
+        "icon": {
+            "item": "minecraft:smooth_stone"
+        },
+        "title": {
+            "translate": "That's a stack",
+            "color": "#c9c9c9"
+        },
+        "description": {
+            "translate": "Smelt a stack of stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    
+    "criteria": {
+        "smooth_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:smooth_stone"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

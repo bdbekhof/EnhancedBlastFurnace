@@ -1,0 +1,267 @@
+{
+    "parent": "ebf:smelting/glaze_it",
+
+    "display": {
+        "icon": {
+            "item": "minecraft:yellow_glazed_terracotta"
+        },
+        "title": {
+            "translate": "Glazed up!",
+            "color": "#gold",
+            "bold": true
+        },
+        "description": {
+            "translate": "Have a stack of every type of glazed terracotta in your inventory.",
+            "color": "#ffefc4"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+
+    "criteria": {
+        "black_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:black_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "blue_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:blue_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "brown_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:brown_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "yellow_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:yellow_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "white_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:white_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "red_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:red_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "purple_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:purple_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "orange_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:orange_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "pink_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:pink_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "magenta_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:magenta_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "light_gray_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:light_gray_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "lime_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:lime_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "light_blue_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:light_blue_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "green_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:green_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "gray_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:gray_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+
+        "cyan_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:cyan_glazed_terracotta"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    }
+}
