@@ -1,35 +1,39 @@
 {
-    "parent": "ebf:smelting/red_or_yellow",
+    "parent": "ebf:smelting/root",
 
     "display": {
         "icon": {
-            "item": "minecraft:glass"
+            "item": "minecraft:smooth_quartz"
         },
         "title": {
-            "translate": "Peeky blinders",
+            "translate": "From the depths of Hell",
             "color": "#b09b99"
         },
         "description": {
-            "translate": "Smelt sand to glass"
+            "translate": "Acquire quartz, make it a block and manage to smooth it out"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     
     "criteria": {
-        "glass": {
+        "smooth_quartz": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:glass"
+                            "minecraft:smooth_quartz"
                         ]
                     }
                 ]
             }
         }
+    },
+
+    "rewards": {
+        "experience": 50
     }
 }

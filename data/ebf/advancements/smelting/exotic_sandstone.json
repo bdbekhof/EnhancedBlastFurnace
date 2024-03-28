@@ -3,33 +3,37 @@
 
     "display": {
         "icon": {
-            "item": "minecraft:glass"
+            "item": "minecraft:smooth_red_sandstone"
         },
         "title": {
-            "translate": "Peeky blinders",
+            "translate": "Exotic sandstone",
             "color": "#b09b99"
         },
         "description": {
-            "translate": "Smelt sand to glass"
+            "translate": "Smooth out some red sandstone"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     
     "criteria": {
-        "glass": {
+        "smooth_red_sandstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:glass"
+                            "minecraft:smooth_red_sandstone"
                         ]
                     }
                 ]
             }
         }
+    },
+
+    "rewards": {
+        "experience": 50
     }
 }

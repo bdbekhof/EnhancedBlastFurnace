@@ -1,16 +1,16 @@
 {
-    "parent": "ebf:smelting/red_or_yellow",
+    "parent": "ebf:smelting/root",
 
     "display": {
         "icon": {
-            "item": "minecraft:glass"
+            "item": "minecraft:popped_chorus_fruit"
         },
         "title": {
-            "translate": "Peeky blinders",
+            "translate": "Fruity!",
             "color": "#b09b99"
         },
         "description": {
-            "translate": "Smelt sand to glass"
+            "translate": "Pop a mo.. Chorus!!"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,13 +19,13 @@
     },
     
     "criteria": {
-        "glass": {
+        "popped_chorus_fruit": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:glass"
+                            "minecraft:popped_chorus_fruit"
                         ]
                     }
                 ]
