@@ -1,0 +1,39 @@
+{
+    "parent": "ebf:smelting/a_true_mason",
+    
+    "display": {
+        "icon": {
+            "item": "minecraft:cracked_stone_bricks"
+        },
+        "title": {
+            "translate": "We do a little bit of cracking",
+            "color": "#fccd4c"
+        },
+        "description": {
+            "translate": "Crack up some bricks",
+            "color": "#ffefc4"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+        
+    "criteria": {
+        "cracked_stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:cracked_stone_bricks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    
+    "rewards": {
+        "experience": 50
+    }
+}

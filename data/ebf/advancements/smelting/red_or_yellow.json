@@ -1,16 +1,16 @@
 {
-    "parent": "ebf:smelting/stoned",
+    "parent": "ebf:smelting/root",
 
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:sand"
         },
         "title": {
-            "translate": "That's a stack",
-            "color": "#c9c9c9"
+            "translate": "Red or yellow?",
+            "color": "#b09b99"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "Have (red) sand in your inventory"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,16 +19,15 @@
     },
     
     "criteria": {
-        "smooth_stone": {
+        "sand": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:sand",
+                            "minecraft:red_sand"
+                        ]
                     }
                 ]
             }

@@ -1,0 +1,87 @@
+{
+    "parent": "ebf:smelting/we_do_a_little_bit_of_cracking",
+    
+    "display": {
+        "icon": {
+            "item": "minecraft:cracked_polished_blackstone_bricks"
+        },
+        "title": {
+            "translate": "Crackmaster",
+            "color": "#d4af37"
+        },
+        "description": {
+            "translate": "Have all variants of cracked blocks in your inventory",
+            "color": "#ffffff"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+        
+    "criteria": {
+        "cracked_stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:cracked_stone_bricks"
+                        ]
+                    }
+                ]
+            }
+        },
+
+        "cracked_deepslate_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:cracked_deepslate_bricks"
+                        ]
+                    }
+                ]
+            }
+        },
+
+        "cracked_deepslate_tiles": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:cracked_deepslate_tiles"
+                        ]
+                    }
+                ]
+            }
+        },
+
+        "cracked_nether_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:cracked_nether_bricks"
+                        ]
+                    }
+                ]
+            }
+        },
+
+        "cracked_polished_blackstone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:cracked_polished_blackstone_bricks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    
+    "rewards": {
+        "experience": 100
+    }
+}

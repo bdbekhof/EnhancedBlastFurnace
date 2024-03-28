@@ -1,37 +1,39 @@
 {
-    "parent": "ebf:smelting/stoned",
+    "parent": "ebf:smelting/root",
 
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:smooth_quartz"
         },
         "title": {
-            "translate": "That's a stack",
-            "color": "#c9c9c9"
+            "translate": "From the depths of Hell",
+            "color": "#b09b99"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "Acquire quartz, make it a block and manage to smooth it out"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     
     "criteria": {
-        "smooth_stone": {
+        "smooth_quartz": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:smooth_quartz"
+                        ]
                     }
                 ]
             }
         }
+    },
+
+    "rewards": {
+        "experience": 50
     }
 }

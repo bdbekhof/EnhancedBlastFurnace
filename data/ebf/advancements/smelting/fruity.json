@@ -1,16 +1,16 @@
 {
-    "parent": "ebf:smelting/stoned",
+    "parent": "ebf:smelting/root",
 
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:popped_chorus_fruit"
         },
         "title": {
-            "translate": "That's a stack",
-            "color": "#c9c9c9"
+            "translate": "Fruity!",
+            "color": "#b09b99"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "Pop a mo.. Chorus!!"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,16 +19,14 @@
     },
     
     "criteria": {
-        "smooth_stone": {
+        "popped_chorus_fruit": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:popped_chorus_fruit"
+                        ]
                     }
                 ]
             }

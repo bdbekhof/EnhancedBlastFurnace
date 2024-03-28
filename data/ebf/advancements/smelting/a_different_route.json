@@ -1,34 +1,32 @@
 {
-    "parent": "ebf:smelting/stoned",
-
+    "parent": "ebf:smelting/clay",
+    
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:terracotta"
         },
         "title": {
-            "translate": "That's a stack",
-            "color": "#c9c9c9"
+            "translate": "A different route",
+            "color": "#4f2d1f"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "So what now?",
+            "color": "#d46535"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    
+        
     "criteria": {
-        "smooth_stone": {
+        "terracotta": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [ 
-                    {
+                "items": [ {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:terracotta"
+                        ]
                     }
                 ]
             }

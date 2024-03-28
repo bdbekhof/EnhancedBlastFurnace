@@ -1,16 +1,16 @@
 {
-    "parent": "ebf:smelting/stoned",
+    "parent": "ebf:smelting/smelt_stack",
 
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:deepslate"
         },
         "title": {
-            "translate": "That's a stack",
-            "color": "#c9c9c9"
+            "translate": "That wasn't hard",
+            "color": "#212121"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "Convert cobbled deepslate back to deepslate"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,16 +19,14 @@
     },
     
     "criteria": {
-        "smooth_stone": {
+        "deepslate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:deepslate"
+                        ]
                     }
                 ]
             }

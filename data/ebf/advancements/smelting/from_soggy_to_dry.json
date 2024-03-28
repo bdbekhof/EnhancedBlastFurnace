@@ -1,16 +1,16 @@
 {
-    "parent": "ebf:smelting/stoned",
+    "parent": "ebf:smelting/root",
 
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:kelp"
         },
         "title": {
-            "translate": "That's a stack",
-            "color": "#c9c9c9"
+            "translate": "From soggy to dry",
+            "color": "#03940a"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "Dry out some kelp"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,16 +19,14 @@
     },
     
     "criteria": {
-        "smooth_stone": {
+        "dried_kelp": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:dried_kelp"
+                        ]
                     }
                 ]
             }

@@ -1,37 +1,39 @@
 {
-    "parent": "ebf:smelting/stoned",
-
+    "parent": "ebf:smelting/clay",
+    
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:brick"
         },
         "title": {
-            "translate": "That's a stack",
-            "color": "#c9c9c9"
+            "translate": "All bricked up",
+            "color": "#7a3416"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "Smelt clay to bricks",
+            "color": "#d46535"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    
+        
     "criteria": {
-        "smooth_stone": {
+        "brick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [ 
-                    {
+                "items": [ {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:brick"
+                        ]
                     }
                 ]
             }
         }
+    },
+
+    "rewards": {
+        "experience": 50
     }
 }

@@ -1,5 +1,5 @@
 {
-    "parent": "ebf:smelting/root",
+    "parent": "ebf:smelting/a_different_route",
     
     "display": {
         "icon": {
@@ -211,5 +211,9 @@
                 ]
             }
         }
+    },
+    
+    "rewards": {
+        "experience": 50
     }
 }

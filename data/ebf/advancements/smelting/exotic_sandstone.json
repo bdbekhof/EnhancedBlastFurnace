@@ -1,37 +1,39 @@
 {
-    "parent": "ebf:smelting/stoned",
+    "parent": "ebf:smelting/red_or_yellow",
 
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:smooth_red_sandstone"
         },
         "title": {
-            "translate": "That's a stack",
-            "color": "#c9c9c9"
+            "translate": "Exotic sandstone",
+            "color": "#b09b99"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "Smooth out some red sandstone"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     
     "criteria": {
-        "smooth_stone": {
+        "smooth_red_sandstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:smooth_red_sandstone"
+                        ]
                     }
                 ]
             }
         }
+    },
+
+    "rewards": {
+        "experience": 50
     }
 }

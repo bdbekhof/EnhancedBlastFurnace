@@ -1,34 +1,32 @@
 {
     "parent": "ebf:smelting/stoned",
-
+    
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:stone_bricks"
         },
         "title": {
-            "translate": "That's a stack",
+            "translate": "A true mason.",
             "color": "#c9c9c9"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "I crafted this with my bare hands!",
+            "color": "#ffffff"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    
+        
     "criteria": {
-        "smooth_stone": {
+        "stone_bricks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [ 
-                    {
+                "items": [ {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:stone_bricks"
+                        ]
                     }
                 ]
             }

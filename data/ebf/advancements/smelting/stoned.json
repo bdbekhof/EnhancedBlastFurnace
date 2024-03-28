@@ -1,34 +1,32 @@
 {
-    "parent": "ebf:smelting/stoned",
-
+    "parent": "ebf:smelting/root",
+    
     "display": {
         "icon": {
-            "item": "minecraft:smooth_stone"
+            "item": "minecraft:stone"
         },
         "title": {
-            "translate": "That's a stack",
+            "translate": "Stoned!",
             "color": "#c9c9c9"
         },
         "description": {
-            "translate": "Smelt a stack of stone"
+            "translate": "Do I smell something funky?",
+            "color": "#419c00"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    
+        
     "criteria": {
-        "smooth_stone": {
+        "stone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [ 
-                    {
+                "items": [ {
                         "items": [
-                            "minecraft:smooth_stone"
-                        ],
-
-                        "count": 64
+                            "minecraft:stone"
+                        ]
                     }
                 ]
             }
