@@ -1,0 +1,35 @@
+{
+    "parent": "ebf:smelting/smelt_stack",
+
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "title": {
+            "translate": "That wasn't hard",
+            "color": "#212121"
+        },
+        "description": {
+            "translate": "Convert cobbled deepslate back to deepslate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    
+    "criteria": {
+        "deepslate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:deepslate"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

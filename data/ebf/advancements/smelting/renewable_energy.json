@@ -1,0 +1,41 @@
+{
+    "parent": "ebf:smelting/from_soggy_to_dry",
+
+    "display": {
+        "icon": {
+            "item": "minecraft:dried_kelp_block"
+        },
+        "title": {
+            "translate": "Renewable energy",
+            "color": "#476e00"
+        },
+        "description": {
+            "translate": "Craft 64 dried kelp blocks to use as fuel"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    
+    "criteria": {
+        "smooth_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:dried_kelp_block"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+
+    "rewards": {
+        "experience": 50
+    }
+}
