@@ -7,11 +7,12 @@
         },
         "title": {
             "translate": "Square up",
-            "color": "#7a3416"
+            "color": "#00ff22",
+            "italic": true
         },
         "description": {
             "translate": "Do that.. Literally.. with bricks!",
-            "color": "#d46535"
+            "color": "#5cefff"
         },
         "frame": "goal",
         "show_toast": true,

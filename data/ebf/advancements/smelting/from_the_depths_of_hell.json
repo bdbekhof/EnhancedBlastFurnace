@@ -7,10 +7,12 @@
         },
         "title": {
             "translate": "From the depths of Hell",
-            "color": "#b09b99"
+            "color": "#00ff22",
+            "italic": true
         },
         "description": {
-            "translate": "Acquire quartz, make it a block and manage to smooth it out"
+            "translate": "Acquire quartz, make it a block and manage to smooth it out",
+            "color": "#5cefff"
         },
         "frame": "goal",
         "show_toast": true,

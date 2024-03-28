@@ -7,10 +7,12 @@
         },
         "title": {
             "translate": "Renewable energy",
-            "color": "#476e00"
+            "color": "#00ff22",
+            "italic": true
         },
         "description": {
-            "translate": "Craft 64 dried kelp blocks to use as fuel"
+            "translate": "Craft 64 dried kelp blocks to use as fuel",
+            "color": "#5cefff"
         },
         "frame": "goal",
         "show_toast": true,

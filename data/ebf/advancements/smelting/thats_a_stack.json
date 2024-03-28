@@ -1,16 +1,17 @@
 {
-    "parent": "ebf:smelting/root",
+    "parent": "ebf:smelting/stoned",
 
     "display": {
         "icon": {
-            "item": "minecraft:clay_ball"
+            "item": "minecraft:smooth_stone"
         },
         "title": {
-            "translate": "Kinda sticky",
-            "color": "#b09b99"
+            "translate": "That's a stack",
+            "color": "#c9c9c9"
         },
         "description": {
-            "translate": "Pick up some clay"
+            "translate": "Smelt a stack of stone",
+            "color": "#ffffff"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,14 +20,16 @@
     },
     
     "criteria": {
-        "clay_ball": {
+        "smooth_stone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:clay_ball"
-                        ]
+                            "minecraft:smooth_stone"
+                        ],
+
+                        "count": 64
                     }
                 ]
             }

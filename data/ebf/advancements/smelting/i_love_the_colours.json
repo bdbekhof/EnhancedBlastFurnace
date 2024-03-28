@@ -7,7 +7,8 @@
         },
         "title": {
             "translate": "I love the colours",
-            "color": "#b09b99"
+            "color": "#fccd4c",
+            "bold": true
         },
         "description": {
             "translate": "Have a stack of every type of coloured glass in your inventory"

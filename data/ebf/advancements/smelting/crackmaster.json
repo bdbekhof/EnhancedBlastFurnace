@@ -7,11 +7,11 @@
         },
         "title": {
             "translate": "Crackmaster",
-            "color": "#d4af37"
+            "color": "#fccd4c",
+            "bold": true
         },
         "description": {
-            "translate": "Have all variants of cracked blocks in your inventory",
-            "color": "#ffffff"
+            "translate": "Have all variants of cracked blocks in your inventory"
         },
         "frame": "challenge",
         "show_toast": true,

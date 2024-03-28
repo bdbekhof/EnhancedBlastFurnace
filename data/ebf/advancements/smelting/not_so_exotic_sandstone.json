@@ -7,10 +7,11 @@
         },
         "title": {
             "translate": "Not so exotic sandstone",
-            "color": "#b09b99"
+            "color": "#fcc612"
         },
         "description": {
-            "translate": "Smooth out some sandstone"
+            "translate": "Smooth out some sandstone",
+            "color": "#ffffff"
         },
         "frame": "task",
         "show_toast": true,

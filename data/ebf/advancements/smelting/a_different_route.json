@@ -1,5 +1,5 @@
 {
-    "parent": "ebf:smelting/clay",
+    "parent": "ebf:smelting/kinda_sticky",
     
     "display": {
         "icon": {
@@ -7,11 +7,10 @@
         },
         "title": {
             "translate": "A different route",
-            "color": "#4f2d1f"
+            "color": "#b8b8b8"
         },
         "description": {
-            "translate": "So what now?",
-            "color": "#d46535"
+            "translate": "So what now?"
         },
         "frame": "task",
         "show_toast": true,
