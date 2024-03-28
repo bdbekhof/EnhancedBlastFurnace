@@ -3,7 +3,7 @@
 
     "display": {
         "icon": {
-            "item": "minecraft:clay"
+            "item": "minecraft:clay_ball"
         },
         "title": {
             "translate": "Kinda sticky",
@@ -25,7 +25,7 @@
                 "items": [ 
                     {
                         "items": [
-                            "minecraft:clay"
+                            "minecraft:clay_ball"
                         ]
                     }
                 ]

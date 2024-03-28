@@ -13,7 +13,7 @@
             "translate": "Smelt clay to bricks",
             "color": "#d46535"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
@@ -32,7 +32,7 @@
             }
         }
     },
-    
+
     "rewards": {
         "experience": 50
     }

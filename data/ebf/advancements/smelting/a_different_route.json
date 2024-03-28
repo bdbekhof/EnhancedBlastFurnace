@@ -9,6 +9,10 @@
             "translate": "A different route",
             "color": "#4f2d1f"
         },
+        "description": {
+            "translate": "So what now?",
+            "color": "#d46535"
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
