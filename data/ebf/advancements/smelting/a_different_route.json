@@ -1,0 +1,31 @@
+{
+    "parent": "ebf:smelting/clay",
+    
+    "display": {
+        "icon": {
+            "item": "minecraft:terracotta"
+        },
+        "title": {
+            "translate": "A different route",
+            "color": "#4f2d1f"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+        
+    "criteria": {
+        "brick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:terracotta"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

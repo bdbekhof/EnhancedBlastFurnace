@@ -1,0 +1,35 @@
+{
+    "parent": "ebf:smelting/root",
+
+    "display": {
+        "icon": {
+            "item": "minecraft:clay"
+        },
+        "title": {
+            "translate": "Kinda sticky",
+            "color": "#b09b99"
+        },
+        "description": {
+            "translate": "Pick up some clay"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    
+    "criteria": {
+        "smooth_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:clay"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "parent": "ebf:smelting/all_bricked_up",
+    
+    "display": {
+        "icon": {
+            "item": "minecraft:bricks"
+        },
+        "title": {
+            "translate": "Square up",
+            "color": "#7a3416"
+        },
+        "description": {
+            "translate": "Do that.. Literally.. with bricks!",
+            "color": "#d46535"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+        
+    "criteria": {
+        "brick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:bricks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    
+    "rewards": {
+        "experience": 50
+    }
+}
