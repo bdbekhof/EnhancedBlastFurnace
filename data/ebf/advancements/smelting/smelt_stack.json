@@ -1,5 +1,5 @@
 {
-    "parent": "ebf:smelting/root",
+    "parent": "ebf:smelting/stoned",
 
     "display": {
         "icon": {

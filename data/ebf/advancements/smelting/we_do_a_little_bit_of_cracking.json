@@ -1,17 +1,17 @@
 {
-    "parent": "ebf:smelting/all_bricked_up",
+    "parent": "ebf:smelting/a_true_mason",
     
     "display": {
         "icon": {
-            "item": "minecraft:bricks"
+            "item": "minecraft:cracked_stone_bricks"
         },
         "title": {
-            "translate": "Square up",
-            "color": "#7a3416"
+            "translate": "We do a little bit of cracking",
+            "color": "#fccd4c"
         },
         "description": {
-            "translate": "Do that.. Literally.. with bricks!",
-            "color": "#d46535"
+            "translate": "Crack up some bricks",
+            "color": "#ffefc4"
         },
         "frame": "goal",
         "show_toast": true,
@@ -20,12 +20,12 @@
     },
         
     "criteria": {
-        "bricks": {
+        "cracked_stone_bricks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ {
                         "items": [
-                            "minecraft:bricks"
+                            "minecraft:cracked_stone_bricks"
                         ]
                     }
                 ]

@@ -19,7 +19,7 @@
     },
     
     "criteria": {
-        "smooth_stone": {
+        "clay_ball": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 

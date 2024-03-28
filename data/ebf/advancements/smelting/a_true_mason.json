@@ -1,31 +1,31 @@
 {
-    "parent": "ebf:smelting/root",
-
+    "parent": "ebf:smelting/stoned",
+    
     "display": {
         "icon": {
-            "item": "minecraft:kelp"
+            "item": "minecraft:stone_bricks"
         },
         "title": {
-            "translate": "From soggy to dry",
-            "color": "#03940a"
+            "translate": "A true mason.",
+            "color": "#c9c9c9"
         },
         "description": {
-            "translate": "Dry out some kelp"
+            "translate": "I crafted this with my bare hands!",
+            "color": "#ffffff"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    
+        
     "criteria": {
-        "dried_kelp": {
+        "stone_bricks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [ 
-                    {
+                "items": [ {
                         "items": [
-                            "minecraft:dried_kelp"
+                            "minecraft:stone_bricks"
                         ]
                     }
                 ]

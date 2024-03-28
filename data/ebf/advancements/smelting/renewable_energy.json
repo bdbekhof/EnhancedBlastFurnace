@@ -19,7 +19,7 @@
     },
     
     "criteria": {
-        "smooth_stone": {
+        "dried_kelp_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ 

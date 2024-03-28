@@ -1,31 +1,31 @@
 {
     "parent": "ebf:smelting/root",
-
+    
     "display": {
         "icon": {
-            "item": "minecraft:kelp"
+            "item": "minecraft:stone"
         },
         "title": {
-            "translate": "From soggy to dry",
-            "color": "#03940a"
+            "translate": "Stoned!",
+            "color": "#c9c9c9"
         },
         "description": {
-            "translate": "Dry out some kelp"
+            "translate": "Do I smell something funky?",
+            "color": "#419c00"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    
+        
     "criteria": {
-        "dried_kelp": {
+        "stone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [ 
-                    {
+                "items": [ {
                         "items": [
-                            "minecraft:dried_kelp"
+                            "minecraft:stone"
                         ]
                     }
                 ]

@@ -20,7 +20,7 @@
     },
         
     "criteria": {
-        "brick": {
+        "terracotta": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [ {
