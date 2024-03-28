@@ -1,0 +1,251 @@
+{
+    "parent": "ebf:smelting/stained_glass",
+
+    "display": {
+        "icon": {
+            "item": "minecraft:red_stained_glass"
+        },
+        "title": {
+            "translate": "I love the colours",
+            "color": "#b09b99"
+        },
+        "description": {
+            "translate": "Have a stack of every type of coloured glass in your inventory"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    
+    "criteria": {
+        "white_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:white_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "light_gray_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:light_gray_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "gray_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:gray_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "black_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:black_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "brown_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:brown_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "red_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:red_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "orange_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:orange_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "yellow_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:yellow_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "lime_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:lime_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "green_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:green_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "cyan_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:cyan_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "light_blue_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:light_blue_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "blue_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:blue_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "purple_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:purple_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "magenta_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:magenta_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "pink_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:pink_stained_glass"
+                        ],
+
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+
+    "rewards": {
+        "experience": 100
+    }
+}
