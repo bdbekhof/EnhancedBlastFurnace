@@ -7,10 +7,11 @@
         },
         "title": {
             "translate": "Red or yellow?",
-            "color": "#b09b99"
+            "color": "#fcc612"
         },
         "description": {
-            "translate": "Have (red) sand in your inventory"
+            "translate": "Have (red) sand in your inventory",
+            "color": "#ffffff"
         },
         "frame": "task",
         "show_toast": true,

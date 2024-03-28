@@ -7,10 +7,12 @@
         },
         "title": {
             "translate": "Exotic sandstone",
-            "color": "#b09b99"
+            "color": "#00ff22",
+            "italic": true
         },
         "description": {
-            "translate": "Smooth out some red sandstone"
+            "translate": "Smooth out some red sandstone",
+            "color": "#5cefff"
         },
         "frame": "goal",
         "show_toast": true,

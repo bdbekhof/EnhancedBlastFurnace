@@ -7,10 +7,12 @@
         },
         "title": {
             "translate": "Stained glass",
-            "color": "#b09b99"
+            "color": "#00ff22",
+            "italic": true
         },
         "description": {
-            "translate": "Put some colour into your glass"
+            "translate": "Put some colour into your glass",
+            "color": "#5cefff"
         },
         "frame": "goal",
         "show_toast": true,

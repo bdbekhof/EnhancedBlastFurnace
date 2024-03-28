@@ -7,11 +7,12 @@
         },
         "title": {
             "translate": "Glaze it!",
-            "color": "#fccd4c"
+            "color": "#00ff22",
+            "italic": true
         },
         "description": {
             "translate": "Have all types of glazed terracotta in your inventory.",
-            "color": "#ffefc4"
+            "color": "#5cefff"
         },
         "frame": "goal",
         "show_toast": true,

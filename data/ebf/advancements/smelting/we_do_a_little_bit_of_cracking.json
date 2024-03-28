@@ -7,11 +7,12 @@
         },
         "title": {
             "translate": "We do a little bit of cracking",
-            "color": "#fccd4c"
+            "color": "#00ff22",
+            "italic": true
         },
         "description": {
             "translate": "Crack up some bricks",
-            "color": "#ffefc4"
+            "color": "#5cefff"
         },
         "frame": "goal",
         "show_toast": true,

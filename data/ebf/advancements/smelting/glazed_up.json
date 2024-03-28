@@ -11,8 +11,7 @@
             "bold": true
         },
         "description": {
-            "translate": "Have a stack of every type of glazed terracotta in your inventory.",
-            "color": "#ffefc4"
+            "translate": "Have a stack of every type of glazed terracotta in your inventory."
         },
         "frame": "challenge",
         "show_toast": true,
