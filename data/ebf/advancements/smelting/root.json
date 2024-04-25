@@ -1,7 +1,12 @@
 {
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
     "display": {
         "icon": {
-            "item": "minecraft:blast_furnace"
+            "id": "minecraft:blast_furnace"
         },
         "title": {
             "translate": "Enhanced Blast Furnace",
@@ -17,10 +22,5 @@
         "show_toast": false,
         "announce_to_chat": false,
         "frame": "task"
-    },
-    "criteria": {
-        "tick": {
-            "trigger": "minecraft:tick"
-        }
     }
 }

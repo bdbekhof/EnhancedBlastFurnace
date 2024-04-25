@@ -1,23 +1,6 @@
 {
     "parent": "ebf:smelting/root",
 
-    "display": {
-        "icon": {
-            "item": "minecraft:clay_ball"
-        },
-        "title": {
-            "translate": "Kinda sticky",
-            "color": "#b8b8b8"
-        },
-        "description": {
-            "translate": "Pick up some clay"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    
     "criteria": {
         "clay_ball": {
             "trigger": "minecraft:inventory_changed",
@@ -31,5 +14,22 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:clay_ball"
+        },
+        "title": {
+            "translate": "Kinda sticky",
+            "color": "#b8b8b8"
+        },
+        "description": {
+            "translate": "Pick up some clay"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     }
 }

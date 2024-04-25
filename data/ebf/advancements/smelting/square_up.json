@@ -1,9 +1,23 @@
 {
     "parent": "ebf:smelting/all_bricked_up",
     
+    "criteria": {
+        "bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:bricks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+
     "display": {
         "icon": {
-            "item": "minecraft:bricks"
+            "id": "minecraft:bricks"
         },
         "title": {
             "translate": "Square up",
@@ -18,20 +32,6 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
-    },
-        
-    "criteria": {
-        "bricks": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [ {
-                        "items": [
-                            "minecraft:bricks"
-                        ]
-                    }
-                ]
-            }
-        }
     },
     
     "rewards": {

@@ -1,24 +1,6 @@
 {
     "parent": "ebf:smelting/we_do_a_little_bit_of_cracking",
     
-    "display": {
-        "icon": {
-            "item": "minecraft:cracked_polished_blackstone_bricks"
-        },
-        "title": {
-            "translate": "Crackmaster",
-            "color": "#fccd4c",
-            "bold": true
-        },
-        "description": {
-            "translate": "Have all variants of cracked blocks in your inventory"
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-        
     "criteria": {
         "cracked_stone_bricks": {
             "trigger": "minecraft:inventory_changed",
@@ -79,6 +61,24 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:cracked_polished_blackstone_bricks"
+        },
+        "title": {
+            "translate": "Crackmaster",
+            "color": "#fccd4c",
+            "bold": true
+        },
+        "description": {
+            "translate": "Have all variants of cracked blocks in your inventory"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
     
     "rewards": {

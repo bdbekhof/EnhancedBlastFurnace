@@ -1,9 +1,24 @@
 {
     "parent": "ebf:smelting/red_or_yellow",
 
+    "criteria": {
+        "smooth_red_sandstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:smooth_red_sandstone"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+
     "display": {
         "icon": {
-            "item": "minecraft:smooth_red_sandstone"
+            "id": "minecraft:smooth_red_sandstone"
         },
         "title": {
             "translate": "Exotic sandstone",
@@ -20,21 +35,6 @@
         "hidden": false
     },
     
-    "criteria": {
-        "smooth_red_sandstone": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [ 
-                    {
-                        "items": [
-                            "minecraft:smooth_red_sandstone"
-                        ]
-                    }
-                ]
-            }
-        }
-    },
-
     "rewards": {
         "experience": 50
     }

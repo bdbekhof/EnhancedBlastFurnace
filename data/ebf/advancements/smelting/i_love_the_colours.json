@@ -1,24 +1,6 @@
 {
     "parent": "ebf:smelting/stained_glass",
 
-    "display": {
-        "icon": {
-            "item": "minecraft:red_stained_glass"
-        },
-        "title": {
-            "translate": "I love the colours",
-            "color": "#fccd4c",
-            "bold": true
-        },
-        "description": {
-            "translate": "Have a stack of every type of coloured glass in your inventory"
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    
     "criteria": {
         "white_stained_glass": {
             "trigger": "minecraft:inventory_changed",
@@ -244,6 +226,24 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:red_stained_glass"
+        },
+        "title": {
+            "translate": "I love the colours",
+            "color": "#fccd4c",
+            "bold": true
+        },
+        "description": {
+            "translate": "Have a stack of every type of coloured glass in your inventory"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
 
     "rewards": {

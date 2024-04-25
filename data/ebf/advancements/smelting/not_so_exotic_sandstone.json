@@ -1,24 +1,6 @@
 {
     "parent": "ebf:smelting/red_or_yellow",
 
-    "display": {
-        "icon": {
-            "item": "minecraft:smooth_sandstone"
-        },
-        "title": {
-            "translate": "Not so exotic sandstone",
-            "color": "#fcc612"
-        },
-        "description": {
-            "translate": "Smooth out some sandstone",
-            "color": "#ffffff"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    
     "criteria": {
         "smooth_sandstone": {
             "trigger": "minecraft:inventory_changed",
@@ -32,5 +14,23 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:smooth_sandstone"
+        },
+        "title": {
+            "translate": "Not so exotic sandstone",
+            "color": "#fcc612"
+        },
+        "description": {
+            "translate": "Smooth out some sandstone",
+            "color": "#ffffff"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     }
 }

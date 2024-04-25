@@ -1,24 +1,6 @@
 {
     "parent": "ebf:smelting/glaze_it",
 
-    "display": {
-        "icon": {
-            "item": "minecraft:yellow_glazed_terracotta"
-        },
-        "title": {
-            "translate": "Glazed up!",
-            "color": "#fccd4c",
-            "bold": true
-        },
-        "description": {
-            "translate": "Have a stack of every type of glazed terracotta in your inventory."
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-
     "criteria": {
         "black_glazed_terracotta": {
             "trigger": "minecraft:inventory_changed",
@@ -259,6 +241,24 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:yellow_glazed_terracotta"
+        },
+        "title": {
+            "translate": "Glazed up!",
+            "color": "#fccd4c",
+            "bold": true
+        },
+        "description": {
+            "translate": "Have a stack of every type of glazed terracotta in your inventory."
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
     
     "rewards": {

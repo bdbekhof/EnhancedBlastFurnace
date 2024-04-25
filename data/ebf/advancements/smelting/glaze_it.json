@@ -1,25 +1,6 @@
 {
     "parent": "ebf:smelting/a_different_route",
     
-    "display": {
-        "icon": {
-            "item": "minecraft:black_glazed_terracotta"
-        },
-        "title": {
-            "translate": "Glaze it!",
-            "color": "#00ff22",
-            "italic": true
-        },
-        "description": {
-            "translate": "Have all types of glazed terracotta in your inventory.",
-            "color": "#5cefff"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-        
     "criteria": {
         "black_glazed_terracotta": {
             "trigger": "minecraft:inventory_changed",
@@ -212,6 +193,25 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:black_glazed_terracotta"
+        },
+        "title": {
+            "translate": "Glaze it!",
+            "color": "#00ff22",
+            "italic": true
+        },
+        "description": {
+            "translate": "Have all types of glazed terracotta in your inventory.",
+            "color": "#5cefff"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
     
     "rewards": {

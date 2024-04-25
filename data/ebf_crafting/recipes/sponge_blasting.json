@@ -1,9 +1,12 @@
 {
   "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.15,
   "ingredient": {
     "item": "minecraft:wet_sponge"
   },
-  "result": "minecraft:sponge",
-  "experience": 0.15,
-  "cookingtime": 100
+  "result": {
+    "id": "minecraft:sponge"
+  }
 }

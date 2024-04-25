@@ -1,9 +1,23 @@
 {
     "parent": "ebf:smelting/root",
     
+    "criteria": {
+        "stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:stone"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+
     "display": {
         "icon": {
-            "item": "minecraft:stone"
+            "id": "minecraft:stone"
         },
         "title": {
             "translate": "Stoned!",
@@ -17,19 +31,5 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
-    },
-        
-    "criteria": {
-        "stone": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [ {
-                        "items": [
-                            "minecraft:stone"
-                        ]
-                    }
-                ]
-            }
-        }
     }
 }

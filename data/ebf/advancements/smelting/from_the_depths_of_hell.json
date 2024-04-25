@@ -1,9 +1,24 @@
 {
     "parent": "ebf:smelting/root",
 
+    "criteria": {
+        "smooth_quartz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": [
+                            "minecraft:smooth_quartz"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+
     "display": {
         "icon": {
-            "item": "minecraft:smooth_quartz"
+            "id": "minecraft:smooth_quartz"
         },
         "title": {
             "translate": "From the depths of Hell",
@@ -20,21 +35,6 @@
         "hidden": false
     },
     
-    "criteria": {
-        "smooth_quartz": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [ 
-                    {
-                        "items": [
-                            "minecraft:smooth_quartz"
-                        ]
-                    }
-                ]
-            }
-        }
-    },
-
     "rewards": {
         "experience": 50
     }
