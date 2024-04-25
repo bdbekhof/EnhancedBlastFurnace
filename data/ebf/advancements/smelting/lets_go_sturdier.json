@@ -1,24 +1,6 @@
 {
     "parent": "ebf:smelting/thats_a_stack",
 
-    "display": {
-        "icon": {
-            "item": "minecraft:deepslate"
-        },
-        "title": {
-            "translate": "Let's go sturdier",
-            "color": "#c9c9c9"
-        },
-        "description": {
-            "translate": "Convert cobbled deepslate back to deepslate",
-            "color": "#ffffff"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    
     "criteria": {
         "deepslate": {
             "trigger": "minecraft:inventory_changed",
@@ -32,5 +14,23 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:deepslate"
+        },
+        "title": {
+            "translate": "Let's go sturdier",
+            "color": "#c9c9c9"
+        },
+        "description": {
+            "translate": "Convert cobbled deepslate back to deepslate",
+            "color": "#ffffff"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     }
 }

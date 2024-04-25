@@ -1,35 +1,33 @@
 {
     "parent": "ebf:smelting/root",
 
+    "criteria": {
+        "dried_kelp": {
+            "conditions": {
+                "items": [ 
+                    {
+                        "items": "minecraft:dried_kelp"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+
     "display": {
+        "description": {
+            "translate": "Dry out some kelp"
+        },
         "icon": {
-            "item": "minecraft:kelp"
+            "id": "minecraft:kelp"
         },
         "title": {
             "translate": "From soggy to dry",
             "color": "#03940a"
         },
-        "description": {
-            "translate": "Dry out some kelp"
-        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
-    },
-    
-    "criteria": {
-        "dried_kelp": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [ 
-                    {
-                        "items": [
-                            "minecraft:dried_kelp"
-                        ]
-                    }
-                ]
-            }
-        }
     }
 }

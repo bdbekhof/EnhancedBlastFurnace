@@ -1,9 +1,23 @@
 {
     "parent": "ebf:smelting/stoned",
+
+    "criteria": {
+        "stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [ {
+                        "items": [
+                            "minecraft:stone_bricks"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
     
     "display": {
         "icon": {
-            "item": "minecraft:stone_bricks"
+            "id": "minecraft:stone_bricks"
         },
         "title": {
             "translate": "A true mason.",
@@ -17,19 +31,5 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
-    },
-        
-    "criteria": {
-        "stone_bricks": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [ {
-                        "items": [
-                            "minecraft:stone_bricks"
-                        ]
-                    }
-                ]
-            }
-        }
     }
 }

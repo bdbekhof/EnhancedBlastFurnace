@@ -1,24 +1,6 @@
 {
     "parent": "ebf:smelting/root",
 
-    "display": {
-        "icon": {
-            "item": "minecraft:sand"
-        },
-        "title": {
-            "translate": "Red or yellow?",
-            "color": "#fcc612"
-        },
-        "description": {
-            "translate": "Have (red) sand in your inventory",
-            "color": "#ffffff"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    
     "criteria": {
         "sand": {
             "trigger": "minecraft:inventory_changed",
@@ -33,5 +15,23 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:sand"
+        },
+        "title": {
+            "translate": "Red or yellow?",
+            "color": "#fcc612"
+        },
+        "description": {
+            "translate": "Have (red) sand in your inventory",
+            "color": "#ffffff"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     }
 }

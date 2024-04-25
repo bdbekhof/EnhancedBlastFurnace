@@ -1,24 +1,6 @@
 {
     "parent": "ebf:smelting/red_or_yellow",
 
-    "display": {
-        "icon": {
-            "item": "minecraft:glass"
-        },
-        "title": {
-            "translate": "Peeky blinders",
-            "color": "#fcc612"
-        },
-        "description": {
-            "translate": "Smelt sand to glass",
-            "color": "#ffffff"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    
     "criteria": {
         "glass": {
             "trigger": "minecraft:inventory_changed",
@@ -32,5 +14,23 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:glass"
+        },
+        "title": {
+            "translate": "Peeky blinders",
+            "color": "#fcc612"
+        },
+        "description": {
+            "translate": "Smelt sand to glass",
+            "color": "#ffffff"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     }
 }

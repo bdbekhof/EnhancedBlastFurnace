@@ -1,24 +1,6 @@
 {
     "parent": "ebf:smelting/root",
 
-    "display": {
-        "icon": {
-            "item": "minecraft:popped_chorus_fruit"
-        },
-        "title": {
-            "translate": "Fruity!",
-            "color": "#bf00ff"
-        },
-        "description": {
-            "translate": "Pop a mo.. Chorus!!",
-            "color": "#fc5bef"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    
     "criteria": {
         "popped_chorus_fruit": {
             "trigger": "minecraft:inventory_changed",
@@ -32,5 +14,23 @@
                 ]
             }
         }
+    },
+
+    "display": {
+        "icon": {
+            "id": "minecraft:popped_chorus_fruit"
+        },
+        "title": {
+            "translate": "Fruity!",
+            "color": "#bf00ff"
+        },
+        "description": {
+            "translate": "Pop a mo.. Chorus!!",
+            "color": "#fc5bef"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     }
 }

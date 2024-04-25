@@ -1,23 +1,6 @@
 {
     "parent": "ebf:smelting/kinda_sticky",
-    
-    "display": {
-        "icon": {
-            "item": "minecraft:terracotta"
-        },
-        "title": {
-            "translate": "A different route",
-            "color": "#b8b8b8"
-        },
-        "description": {
-            "translate": "So what now?"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-        
+
     "criteria": {
         "terracotta": {
             "trigger": "minecraft:inventory_changed",
@@ -30,5 +13,22 @@
                 ]
             }
         }
-    }
+    },
+    
+    "display": {
+        "icon": {
+            "id": "minecraft:terracotta"
+        },
+        "title": {
+            "translate": "A different route",
+            "color": "#b8b8b8"
+        },
+        "description": {
+            "translate": "So what now?"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    } 
 }
