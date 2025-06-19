@@ -2,6 +2,6 @@
     {
         "pack_format": 50,
         "supported_formats": {"min_inclusive": 50, "max_inclusive": 80},
-        "description": [{"text":"Enhanced Blast Furnace v1.3.9","color":"gold"},{"text":"\nbdbekhof.nl","color":"green"}]
+        "description": [{"text":"Enhanced Blast Furnace v1.3.10","color":"gold"},{"text":"\nbdbekhof.nl","color":"green"}]
     }
 }
