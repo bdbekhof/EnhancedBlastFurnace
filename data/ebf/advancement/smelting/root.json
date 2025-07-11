@@ -18,7 +18,7 @@
             "color": "blue",
             "italics": true
         },
-        "background": "minecraft:textures/block/coal_block.png",
+        "background": "minecraft:block/coal_block",
         "show_toast": false,
         "announce_to_chat": false,
         "frame": "task"
