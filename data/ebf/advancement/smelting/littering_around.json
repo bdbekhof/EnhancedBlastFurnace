@@ -2,9 +2,19 @@
     "parent": "ebf:smelting/root",
     "criteria": {
       "leaf_litter_detected": {
-        "trigger": "minecraft:inventory_changed"       
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:leaf_litter"
+              ]
+            }
+          ]
+        }
       }
     },
+    
     "display": {
       "description": {
         "translate": "Dry out some leaves by smelting them",
