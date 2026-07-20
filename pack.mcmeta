@@ -1,10 +1,10 @@
 {
     "pack": {
         "min_format": [99, 0],
-        "max_format": [101, 1],
+        "max_format": [107, 1],
         "description": [
             {
-                "text":"Enhanced Blast Furnace v1.3.11",
+                "text":"Enhanced Blast Furnace v1.5.0",
                 "color":"gold"
             },
             {
